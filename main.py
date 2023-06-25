@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker, Session
 from SQLAlchemy_Models import create_tables, Publisher, Book, Shop, Stock, Sale
 
 
-engine = create_engine("postgresql+psycopg2://postgres:Laura_245@localhost:5432/book_db")
+engine = create_engine("postgresql+psycopg2://postgres:password@localhost:5432/book_db")
 create_tables(engine)
 
 
